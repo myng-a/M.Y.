@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>m.y.</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background-color: #f6f1e7; /* elegant cream */
+            color: #2f2f2f;
+        }
+
+        /* HEADER + FOOTER: Pure elegant black */
+        header, footer {
+            background-color: #000000; /* black */
+            color: #f6f1e7; /* soft light text */
+            padding: 30px 50px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            letter-spacing: 0.1em;
+            margin: 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        section.about {
+            background-color: #fffdf9;
+            border-left: 8px solid #bfa27a; /* soft gold accent */
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        section.about h2 {
+            font-size: 2em;
+            color: #1a1a1a;
+            margin-top: 0;
+        }
+
+        section.about p {
+            font-size: 1.1em;
+            line-height: 1.7em;
+            color: #3a3a3a;
+        }
+
+        footer {
+            font-size: 0.9em;
+            margin-top: 50px;
+        }
+
+        /* Signature capsule style */
+        .capsule {
+            display: inline-block;
+            padding: 6px 18px;
+            border-radius: 30px;
+            background-color: #bfa27a; /* soft gold */
+            color: #0a0a0a; /* deep bold text */
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            font-size: 1.1em;
+            text-transform: uppercase;
+        }
+
+        /* Elegant image styling */
+        .elegant-image {
+            width: 100%;
+            max-width: 900px;
+            margin: 40px auto;
+            display: block;
+            border: 3px solid #d1bfa3; /* faint gold border */
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* soft drop shadow */
+            border-radius: 12px; /* rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span class="capsule">m.y.</span></h1>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hello, and welcome to my world. This space is a quiet reflection — a curated journal of elegance, thought, and aesthetic contemplation. I write not to impress, but to observe. Not to perform, but to preserve. Here you'll find moments, musings, and muslin threads woven through the timeless silhouettes of style and life.</p>
+        </section>
+
+        <!-- 🖼️ Add your own image by replacing 'photo.jpeg' with your file name -->
+        <!-- Make sure the image is inside the same folder as this HTML file -->
+        <img class="elegant-image" src="photo.jpeg" alt="Elegant photo from camera roll" />
+    </main>
+
+    <footer>
+        <div><span class="capsule">m.y.</span> &copy; 2025. All rights reserved.</div>
+    </footer>
+</body>
+</html>
